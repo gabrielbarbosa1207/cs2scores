@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
+    "moduleResolution": "nodenext",
     "target": "ES2021",
-    "module": "ESNext"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "checkJs": true,
+    "allowJs": true
+  }
 }
