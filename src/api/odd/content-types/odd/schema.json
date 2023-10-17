@@ -4,7 +4,8 @@
   "info": {
     "singularName": "odd",
     "pluralName": "odds",
-    "displayName": "Odds"
+    "displayName": "Odds",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,12 @@
     },
     "Body": {
       "type": "richtext"
+    },
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
     }
   }
 }

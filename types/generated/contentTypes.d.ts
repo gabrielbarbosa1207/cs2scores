@@ -683,6 +683,7 @@ export interface ApiMatchMatch extends Schema.CollectionType {
     singularName: 'match';
     pluralName: 'matches';
     displayName: 'Matches';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -690,6 +691,8 @@ export interface ApiMatchMatch extends Schema.CollectionType {
   attributes: {
     Title: Attribute.String;
     Body: Attribute.RichText;
+    MetaTitle: Attribute.String;
+    MetaDescription: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -714,6 +717,7 @@ export interface ApiOddOdd extends Schema.CollectionType {
     singularName: 'odd';
     pluralName: 'odds';
     displayName: 'Odds';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -721,6 +725,8 @@ export interface ApiOddOdd extends Schema.CollectionType {
   attributes: {
     Title: Attribute.String;
     Body: Attribute.RichText;
+    MetaTitle: Attribute.String;
+    MetaDescription: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
